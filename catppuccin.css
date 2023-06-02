@@ -38,7 +38,7 @@
     --tridactyl-bg: var(--catppuccin-base);
     --tridactyl-cmdl-bg: var(--catppuccin-base);
     --tridactyl-cmdl-fg: var(--catppuccin-text);
-    --tridactyl-cmplt-border-top: 1px solid var(--catppuccin-accent);
+    --tridactyl-cmplt-border-top: 0;
     --tridactyl-fg: var(--catppuccin-text);
     --tridactyl-header-first-bg: var(--catppuccin-crust);
     --tridactyl-header-second-bg: var(--catppuccin-crust);
