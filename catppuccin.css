@@ -1,0 +1,78 @@
+:root {
+    /* Catppuccin Frappe */
+    --catppuccin-rosewater: #f2d5cf;
+    --catppuccin-flamingo: #eebebe;
+    --catppuccin-pink: #f4b8e4;
+    --catppuccin-mauve: #ca9ee6;
+    --catppuccin-red: #e78284;
+    --catppuccin-maroon: #ea999c;
+    --catppuccin-peach: #ef9f76;
+    --catppuccin-yellow: #e5c890;
+    --catppuccin-green: #a6d189;
+    --catppuccin-teal: #81c8be;
+    --catppuccin-sky: #99d1db;
+    --catppuccin-sapphire: #85c1dc;
+    --catppuccin-blue: #8caaee;
+    --catppuccin-lavender: #babbf1;
+    --catppuccin-text: #c6d0f5;
+    --catppuccin-subtext1: #b5bfe2;
+    --catppuccin-subtext0: #a5adce;
+    --catppuccin-overlay2: #949cbb;
+    --catppuccin-overlay1: #838ba7;
+    --catppuccin-overlay0: #737994;
+    --catppuccin-surface2: #626880;
+    --catppuccin-surface1: #51576d;
+    --catppuccin-surface0: #414559;
+    --catppuccin-base: #303446;
+    --catppuccin-mantle: #292c3c;
+    --catppuccin-crust: #232634;
+
+    --catppuccin-accent: var(--catppuccin-sapphire);
+
+    /* Start theme */
+    --tridactyl-fg: var(--catppuccin-text);
+    --tridactyl-bg: var(--catppuccin-base);
+
+    --tridactyl-scrollbar-color: var(--catppuccin-accent) var(--tridactyl-fg);
+
+    --tridactyl-cmdl-fg: var(--catppuccin-text);
+    --tridactyl-cmdl-bg: var(--catppuccin-base);
+
+    --tridactyl-header-first-bg: green;
+    --tridactyl-header-second-bg: purple;
+    --tridactyl-header-third-bg: pink;
+
+    --tridactyl-cmplt-border-top: 1px solid var(--catppuccin-accent);
+
+    --tridactyl-url-fg: var(--tridactyl-photon-colours-code-green);
+    --tridactyl-url-bg: var(--tridactyl-bg);
+
+    --tridactyl-of-fg: var(--tridactyl-photon-colours-warning-color);
+    --tridactyl-of-bg: var(--tridactyl-photon-colours-warning-background-color);
+
+    --tridactyl-hintspan-fg: var(--catppuccin-text);
+    --tridactyl-hintspan-bg: var(--catppuccin-base);
+
+    --tridactyl-hint-active-fg: var(--catppuccin-accent);
+    --tridactyl-hint-active-bg: var(--catppuccin-base);
+    --tridactyl-hint-active-outline: 1px solid red;
+
+    --tridactyl-hint-bg: var(--catppuccin-base);
+    --tridactyl-hint-outline: 1px solid var(--catppuccin-base);
+
+    --tridactyl-highlight-box-bg: var(--catppuccin-base);
+    --tridactyl-highlight-box-fg: var(--catppuccin-text);
+}
+
+:root.TridactylOwnNamespace input[id^="spoiler"] ~ .spoiler {
+    border-color: var(--catppuccin-accent);
+}
+
+:root.TridactylOwnNamespace {
+    scrollbar-color: var(--catppuccin-accent);
+    scrollbar-width: thin;
+}
+
+:root.TridactylOwnNamespace a {
+    color: var(--catppuccin-accent);
+}
