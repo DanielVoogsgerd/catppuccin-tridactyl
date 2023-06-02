@@ -36,27 +36,38 @@
 
     /* Start theme */
     --tridactyl-bg: var(--catppuccin-base);
+    --tridactyl-fg: var(--catppuccin-text);
+
+    /* Command panel */
     --tridactyl-cmdl-bg: var(--catppuccin-base);
     --tridactyl-cmdl-fg: var(--catppuccin-text);
     --tridactyl-cmplt-border-top: 1px solid var(--catppuccin-overlay0);
-    --tridactyl-fg: var(--catppuccin-text);
+
+    /* This is the header on the top of the command panel */
     --tridactyl-header-first-bg: var(--catppuccin-crust);
     --tridactyl-header-second-bg: var(--catppuccin-crust);
     --tridactyl-header-third-bg: var(--catppuccin-crust);
+
     --tridactyl-highlight-box-bg: var(--catppuccin-base);
     --tridactyl-highlight-box-fg: var(--catppuccin-text);
 
+    /* This hint is the selection object when selecting things in the browser like links */
     --tridactyl-hint-active-bg: var(--catppuccin-cursor-bg);
     --tridactyl-hint-active-fg: var(--catppuccin-cursor-fg);
     --tridactyl-hint-active-outline: 1px solid var(--catppuccin-lavender);
     --tridactyl-hint-bg: var(--catppuccin-overlay1);
     --tridactyl-hint-outline: 1px solid var(--catppuccin-overlay0);
 
-    --tridactyl-hintspan-bg: var(--catppuccin-base);
+    /* The hintspan is the object inside the hint that shows the letters you can type to select it */
+    --tridactyl-hintspan-bg: var(--catppuccin-overlay1);
     --tridactyl-hintspan-fg: var(--catppuccin-text);
+
+    /* Of is the item in the cmd panel that is currently selected */
     --tridactyl-of-bg: var(--catppuccin-cursor-bg);
     --tridactyl-of-fg: var(--catppuccin-cursor-fg);
+
     --tridactyl-scrollbar-color: var(--catppuccin-accent) var(--tridactyl-fg);
+
     --tridactyl-url-bg: var(--tridactyl-bg);
     --tridactyl-url-fg: var(--catppuccin-blue);
 }
