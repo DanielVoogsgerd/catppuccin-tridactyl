@@ -45,11 +45,13 @@
     --tridactyl-header-third-bg: var(--catppuccin-crust);
     --tridactyl-highlight-box-bg: var(--catppuccin-base);
     --tridactyl-highlight-box-fg: var(--catppuccin-text);
-    --tridactyl-hint-active-bg: var(--catppuccin-base);
-    --tridactyl-hint-active-fg: var(--catppuccin-accent);
-    --tridactyl-hint-active-outline: 1px solid red;
-    --tridactyl-hint-bg: var(--catppuccin-base);
-    --tridactyl-hint-outline: 1px solid var(--catppuccin-base);
+
+    --tridactyl-hint-active-bg: var(--catppuccin-cursor-bg);
+    --tridactyl-hint-active-fg: var(--catppuccin-cursor-fg);
+    --tridactyl-hint-active-outline: 1px solid var(--catppuccin-lavender);
+    --tridactyl-hint-bg: var(--catppuccin-overlay1);
+    --tridactyl-hint-outline: 1px solid var(--catppuccin-overlay0);
+
     --tridactyl-hintspan-bg: var(--catppuccin-base);
     --tridactyl-hintspan-fg: var(--catppuccin-text);
     --tridactyl-of-bg: var(--catppuccin-cursor-bg);
