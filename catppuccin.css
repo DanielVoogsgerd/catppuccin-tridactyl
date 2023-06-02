@@ -56,7 +56,7 @@
     --tridactyl-of-fg: var(--catppuccin-cursor-fg);
     --tridactyl-scrollbar-color: var(--catppuccin-accent) var(--tridactyl-fg);
     --tridactyl-url-bg: var(--tridactyl-bg);
-    --tridactyl-url-fg: var(--tridactyl-photon-colours-code-green);
+    --tridactyl-url-fg: var(--catppuccin-blue);
 }
 
 :root.TridactylOwnNamespace input[id^="spoiler"] ~ .spoiler {
