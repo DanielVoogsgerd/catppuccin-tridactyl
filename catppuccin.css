@@ -50,8 +50,8 @@
     --tridactyl-hint-outline: 1px solid var(--catppuccin-base);
     --tridactyl-hintspan-bg: var(--catppuccin-base);
     --tridactyl-hintspan-fg: var(--catppuccin-text);
-    --tridactyl-of-bg: var(--tridactyl-bg);
-    --tridactyl-of-fg: var(--catppuccin-accent);
+    --tridactyl-of-bg: var(--catppuccin-cursor-bg);
+    --tridactyl-of-fg: var(--catppuccin-cursor-fg);
     --tridactyl-scrollbar-color: var(--catppuccin-accent) var(--tridactyl-fg);
     --tridactyl-url-bg: var(--tridactyl-bg);
     --tridactyl-url-fg: var(--tridactyl-photon-colours-code-green);
